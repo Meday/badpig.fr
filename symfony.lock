@@ -240,6 +240,19 @@
             "config/routes/sylius_adyen.yaml"
         ]
     },
+    "sylius/cms-plugin": {
+        "version": "1.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "1.0",
+            "ref": "82fbfcc27034f459d25ca473a757b9a6db876823"
+        },
+        "files": [
+            "config/packages/sylius_cms.yaml",
+            "config/routes/sylius_cms.yaml"
+        ]
+    },
     "sylius/fixtures-bundle": {
         "version": "v1.9.0"
     },
